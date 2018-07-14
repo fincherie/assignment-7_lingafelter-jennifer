@@ -1,4 +1,8 @@
 $(document).ready(function(){
-  var headings = $('h2');
-  $('h2:last').html('I am Jennifer Lingafelter and I am learning JQuery!');
+ var paragraphs=$('p');
+ paragraphs.css({
+       'font-size': '30px',
+       'color': 'red',
+       'margin-left': '30 px'
+});
 });
